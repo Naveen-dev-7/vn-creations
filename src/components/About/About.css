@@ -1,0 +1,38 @@
+.about-section {
+  padding: 140px 20px;
+  background: #ffffff;
+}
+
+.about-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about-label {
+  font-size: 13px;
+  letter-spacing: 3px;
+  color: #888;
+  margin-bottom: 25px;
+}
+
+.about-heading {
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  line-height: 1.2;
+}
+
+.about-text {
+  font-size: 18px;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about-highlight {
+  margin-top: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}

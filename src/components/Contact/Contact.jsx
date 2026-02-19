@@ -44,18 +44,18 @@ const Contact = () => {
   };
 
   return (
-    <section style={styles.section}>
+    <section id='contact' style={styles.section}>
       <div style={styles.container}>
         <h2 style={styles.heading}>Let's Work Together</h2>
         <p style={styles.subheading}>
-          Have a project in mind? Send me a message and let's create something amazing.
+          Have a project in mind? Send us a message and let's create something amazing.
         </p>
 
         <form onSubmit={handleSubmit} style={styles.form}>
 
           {success && (
             <div style={styles.success}>
-              ✅ Message Sent Successfully! I’ll contact you shortly.
+              ✅ Message Sent Successfully! we’ll get back to you shortly.
             </div>
           )}
 

@@ -10,6 +10,9 @@ import CTA from "./components/CTA/CTA";
 import Footer from "./components/Footer/Footer";
 // import About from "./components/About/About";
 
+import CaseStudy from "./pages/CaseStudy";
+
+
 import "./styles/global.css";
 import "./styles/animations.css";
 import About from "./components/About/About";
@@ -34,6 +37,8 @@ function App() {
             </>
           }
         />
+
+        <Route path="/case-study" element={<CaseStudy />} />
 
         {/* Future case study route */}
         {/* <Route path="/case-study" element={<CaseStudy />} /> */}

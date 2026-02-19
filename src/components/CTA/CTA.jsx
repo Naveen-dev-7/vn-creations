@@ -18,7 +18,7 @@ const CTA = () => {
             Call Now
           </a>
 
-          <a href="vncreationsstudio@gmail.com" className="cta-secondary">
+          <a href="mailto:vncreationsstudio@gmail.com" className="cta-secondary">
             Email Us
           </a>
         </div>
