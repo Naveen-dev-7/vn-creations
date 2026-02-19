@@ -1,0 +1,98 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #ffffff;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  z-index: 1000;
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 28px 0;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.brand img {
+  height: 28px;
+  width: auto;
+}
+
+.brand span {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+.nav-links {
+  display: flex;
+  gap: 48px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #000;
+}
+
+.cta-btn {
+  padding: 10px 24px;
+  border: 1px solid #000;
+  text-decoration: none;
+  font-size: 14px;
+  color: #000;
+  transition: all 0.3s ease;
+}
+
+.cta-btn:hover {
+  background: #000;
+  color: #fff;
+}
+
+.hamburger {
+  display: none;
+}
+
+/* Mobile */
+
+@media (max-width: 1000px) {
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 280px;
+    background: #ffffff;
+    flex-direction: column;
+    padding: 120px 40px;
+    gap: 32px;
+    transition: right 0.4s ease;
+  }
+
+  .nav-links.active {
+    right: 0;
+  }
+
+  .cta-btn {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 20px;
+    cursor: pointer;
+  }
+}
