@@ -1,7 +1,11 @@
+import ScrollReveal from "../Animations/ScrollReveal";
+
+
 import "./Process.css";
 
 const Process = () => {
   return (
+    <ScrollReveal>
     <section id="process" className="process">
       <div className="container process-inner">
 
@@ -55,6 +59,7 @@ const Process = () => {
 
       </div>
     </section>
+    </ScrollReveal>
   );
 };
 

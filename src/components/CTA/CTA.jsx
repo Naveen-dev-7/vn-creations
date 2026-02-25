@@ -1,7 +1,10 @@
+import ScrollReveal from "../Animations/ScrollReveal";
+
 import "./CTA.css";
 
 const CTA = () => {
   return (
+    <ScrollReveal>
     <section id="CTA" className="cta">
       <div className="container cta-inner">
         <h2>
@@ -24,6 +27,7 @@ const CTA = () => {
         </div>
       </div>
     </section>
+    </ScrollReveal>
   );
 };
 

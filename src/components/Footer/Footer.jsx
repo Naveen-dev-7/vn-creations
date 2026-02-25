@@ -21,7 +21,6 @@ const Footer = () => {
             <li>Brochures & Offset Printing</li>
             <li>Signages & Flex</li>
             <li>Web Development</li>
-            <li>Merchandise & Apparel</li>
           </ul>
         </div>
 

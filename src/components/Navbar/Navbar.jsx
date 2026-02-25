@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/logo.svg";
 import "./Navbar.css";
 
+import ScrollReveal from "../Animations/ScrollReveal";
+<ScrollReveal></ScrollReveal>
+
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -12,12 +15,13 @@ const Navbar = () => {
 
         {/* Brand */}
         <div className="brand">
-          <a href="#home"><img src={logo} alt="VN Creations Logo" /></a>
-          <span>VN Creations</span>
+          <a className="brand-logo" href="#home"><img src={logo} alt="VN Creations Logo" /></a>
+          <span className="brand-name">VN Creations</span>
         </div>
 
         {/* Navigation */}
         <nav className={`nav-links ${menuOpen ? "active" : ""}`}>
+          <a href="#home" className="nav-home-link" onClick={() => setMenuOpen(false)}>Home</a>
           <a href="#services" onClick={() => setMenuOpen(false)}>Services</a>
           <a href="#work" onClick={() => setMenuOpen(false)}>Work</a>
           <a href="#process" onClick={() => setMenuOpen(false)}>Process</a>

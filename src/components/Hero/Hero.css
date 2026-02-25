@@ -48,6 +48,7 @@
   padding: 14px 28px;
   text-decoration: none;
   transition: 0.3s ease;
+  border-radius: 5px;
 }
 
 .primary-btn:hover {
@@ -60,9 +61,11 @@
   text-decoration: none;
   color: #000;
   transition: 0.3s ease;
+  border-radius: 5px;
 }
 
 .secondary-btn:hover {
+  transform: translateY(-3px);
   background: #000;
   color: #fff;
 }
@@ -83,18 +86,31 @@
   box-shadow: 0 15px 30px rgba(0,0,0,0.08);
   border-radius: 8px;
   transition: 0.3s ease;
+  
 }
 
 .box:hover {
   transform: translateY(-5px);
 }
 
+.mob-home-box{
+  display: none;
+}
 
 /* Mobile */
 
 @media (max-width: 1000px) {
    .hero {
     padding: 100px 6%;
+  }
+
+  .mob-home-box{
+    display:unset;
+    height: 200px;
+    background: #f4f4f4;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+    border-radius: 8px;
+    transition: 0.3s ease;
   }
 
   .hero-left h1 {

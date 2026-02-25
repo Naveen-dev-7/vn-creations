@@ -1,7 +1,9 @@
+import ScrollReveal from "../Animations/ScrollReveal";
 import './About.css'
 
 const About = () => {
   return (
+    <ScrollReveal>
     <section id="about" className="about-section">
       <div className="about-container">
 
@@ -29,6 +31,7 @@ const About = () => {
 
       </div>
     </section>
+    </ScrollReveal>
   );
 };
 

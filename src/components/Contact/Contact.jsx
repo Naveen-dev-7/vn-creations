@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import ScrollReveal from "../Animations/ScrollReveal";
+
 const Contact = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -44,6 +46,7 @@ const Contact = () => {
   };
 
   return (
+    <ScrollReveal>
     <section id='contact' style={styles.section}>
       <div style={styles.container}>
         <h2 style={styles.heading}>Let's Work Together</h2>
@@ -104,7 +107,13 @@ const Contact = () => {
             disabled={loading || success}
             style={{
               ...styles.button,
-              opacity: loading || success ? 0.7 : 1,
+              background: success
+                ? "#28a745"
+                : loading
+                ? "#555"
+                : "#000",
+              opacity: loading || success ? 0.6 : 1,
+              transform: success ? "scale(1.05)" : "scale(1)",
             }}
           >
             {loading
@@ -116,6 +125,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
+    </ScrollReveal>
   );
 };
 
@@ -175,6 +185,7 @@ const styles = {
     fontWeight: "600",
     cursor: "pointer",
     transition: "0.3s ease",
+    
   },
   success: {
     background: "#e6ffed",

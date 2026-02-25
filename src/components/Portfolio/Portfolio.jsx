@@ -1,7 +1,14 @@
+import Books from '../../assets/Books.png'
+import Web from '../../assets/Mob-web.png'
+import Signs from '../../assets/Signages.jpeg'
+import Offset from '../../assets/Both.jpeg'
 import "./Portfolio.css";
+
+import ScrollReveal from "../Animations/ScrollReveal";
 
 const Portfolio = () => {
   return (
+    <ScrollReveal>
     <section id="work" className="portfolio">
       <div className="container portfolio-inner">
 
@@ -16,13 +23,15 @@ const Portfolio = () => {
         <div className="portfolio-grid">
 
           <div className="portfolio-item large">
+          <img src={Web} alt="" />
             <div className="overlay">
               <h3>Luxury Brand Identity</h3>
-              <p>Logo • Packaging • Print System</p>
+              <p>Logo • Packaging • Print System • Web • Signages </p>
             </div>
           </div>
 
           <div className="portfolio-item">
+          <img src={Books} alt="" />
             <div className="overlay">
               <h3>Corporate Brochure</h3>
               <p>Offset Print • Layout • Finishing</p>
@@ -30,6 +39,7 @@ const Portfolio = () => {
           </div>
 
           <div className="portfolio-item">
+          <img src={Offset} alt="" />
             <div className="overlay">
               <h3>Packaging System</h3>
               <p>Box Design • Production • Execution</p>
@@ -37,9 +47,10 @@ const Portfolio = () => {
           </div>
 
           <div className="portfolio-item wide">
+          <img src={Signs} alt="" />
             <div className="overlay">
-              <h3>Website Experience</h3>
-              <p>UI/UX • Development • Launch</p>
+              <h3>Signage systems</h3>
+              <p>3D Letters • Acrylic • Display</p>
             </div>
           </div>
 
@@ -47,6 +58,7 @@ const Portfolio = () => {
 
       </div>
     </section>
+    </ScrollReveal>
   );
 };
 
