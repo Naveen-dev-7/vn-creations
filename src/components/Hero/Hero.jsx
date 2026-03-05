@@ -2,7 +2,7 @@ import Books from "../../assets/Home-Books.png";
 import Web from "../../assets/Home-Site.png";
 import Signs from "../../assets/Home-Signs.png";
 import Tshirt from "../../assets/Home-Tshirts.png";
-import MobHome from "../../assets/Mob-Home.png";
+import MobHome from "../../assets/Mob-Home.jpg";
 
 import ScrollReveal from "../Animations/ScrollReveal";
 

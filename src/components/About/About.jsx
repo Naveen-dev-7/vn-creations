@@ -13,6 +13,13 @@ const About = () => {
           We Build Brands That Command Attention.
         </h2>
 
+        <div style={{
+  width: "60px",
+  height: "2px",
+  background: "#b48a5a",
+  margin: "30px auto"
+}} />
+
         <p className="about-text">
           VN Creation is a branding and digital execution studio focused on
           precision, clarity, and impact. From identity systems and print

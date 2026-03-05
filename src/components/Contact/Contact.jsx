@@ -143,6 +143,7 @@ const styles = {
     padding: "40px",
     borderRadius: "16px",
     boxShadow: "0 10px 30px rgba(0,0,0,0.05)",
+    marginTop: "20px",
   },
   heading: {
     fontSize: "28px",

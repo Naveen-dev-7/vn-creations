@@ -23,9 +23,9 @@ const Navbar = () => {
         <nav className={`nav-links ${menuOpen ? "active" : ""}`}>
           <a href="#home" className="nav-home-link" onClick={() => setMenuOpen(false)}>Home</a>
           <a href="#services" onClick={() => setMenuOpen(false)}>Services</a>
-          <a href="#work" onClick={() => setMenuOpen(false)}>Work</a>
           <a href="#process" onClick={() => setMenuOpen(false)}>Process</a>
           <a href="#about" onClick={() => setMenuOpen(false)}>About</a>
+                    <a href="#work" onClick={() => setMenuOpen(false)}>Work</a>
           <a href="#contact" onClick={() => setMenuOpen(false)}>Contact</a>
         </nav>
 

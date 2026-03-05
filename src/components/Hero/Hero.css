@@ -24,8 +24,10 @@
 }
 
 .hero h1 {
-  font-size: 56px;
+  font-size: 64px;
   font-weight: 700;
+  letter-spacing: -1.25;
+  line-height: 1.1;
   margin: 20px 0;
   line-height: 1.1;
 }

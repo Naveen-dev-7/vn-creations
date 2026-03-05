@@ -1,4 +1,5 @@
 import "./Services.css";
+import { Palette, Package, Globe } from "lucide-react";
 
 const Services = () => {
   return (
@@ -16,7 +17,11 @@ const Services = () => {
         <div className="services-grid">
 
           <div className="service-card">
+
+          <div className="service-card-icons">
             <span>01</span>
+            <Palette className="service-icon" size={24}/>
+          </div>
             <h3>Brand Identity</h3>
             <p>
               Logo systems, typography, visual direction and
@@ -25,7 +30,12 @@ const Services = () => {
           </div>
 
           <div className="service-card">
+
+          <div className="service-card-icons">
             <span>02</span>
+            <Package className="service-icon" size={24}/>
+          </div>
+
             <h3>Brand Production</h3>
             <p>
               Premium packaging, brochures, business cards,
@@ -34,7 +44,12 @@ const Services = () => {
           </div>
 
           <div className="service-card">
+
+                    <div className="service-card-icons">
             <span>03</span>
+            <Globe className="service-icon" size={24}/>
+          </div>
+
             <h3>Digital Presence</h3>
             <p>
               Modern websites and digital experiences

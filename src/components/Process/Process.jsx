@@ -1,4 +1,6 @@
 import ScrollReveal from "../Animations/ScrollReveal";
+import { Search, Compass, Layers, Rocket } from "lucide-react";
+import { Sparkles } from "lucide-react";
 
 
 import "./Process.css";
@@ -20,7 +22,10 @@ const Process = () => {
         <div className="process-steps">
 
           <div className="step">
-            <span>01</span>
+            <div className="process-card-icons">
+              <span>01</span>
+              <span> <Search size={28} strokeWidth={1.5} /> </span>
+            </div>
             <h3>Discovery</h3>
             <p>
               We understand your vision, business model,
@@ -29,7 +34,10 @@ const Process = () => {
           </div>
 
           <div className="step">
-            <span>02</span>
+<div className="process-card-icons">
+              <span>02</span>
+              <span> <Compass size={28} strokeWidth={1.5} /> </span>
+            </div>
             <h3>Strategy & Design</h3>
             <p>
               We build brand direction, visual systems and
@@ -38,7 +46,12 @@ const Process = () => {
           </div>
 
           <div className="step">
-            <span>03</span>
+
+          <div className="process-card-icons">
+              <span>03</span>
+              <span> <Layers size={28} strokeWidth={1.5} /> </span>
+            </div>
+
             <h3>Production & Execution</h3>
             <p>
               From offset printing to digital launch,
@@ -47,7 +60,11 @@ const Process = () => {
           </div>
 
           <div className="step">
-            <span>04</span>
+
+          <div className="process-card-icons">
+              <span>04</span>
+              <span> <Rocket size={28} strokeWidth={1.5} /> </span>
+            </div>
             <h3>Launch & Scale</h3>
             <p>
               We ensure your brand is market-ready and

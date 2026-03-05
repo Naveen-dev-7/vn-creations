@@ -17,10 +17,13 @@
 }
 
 .about-heading {
-  font-size: 48px;
-  font-weight: 600;
+  font-size: 52px;
+  font-weight: 700;
   margin-bottom: 30px;
+  letter-spacing: -1px;
   line-height: 1.2;
+
+
 }
 
 .about-text {
